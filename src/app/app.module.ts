@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { DisplayNumberComponent } from './display-number/display-number.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DisplayNumberComponent
   ],
   imports: [
     BrowserModule
